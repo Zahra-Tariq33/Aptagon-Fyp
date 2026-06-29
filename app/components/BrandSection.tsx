@@ -82,13 +82,6 @@ export default function ClientsSection3D() {
 
         {/* ── Deep space bg grid ── */}
         <div style={{ position:"absolute", inset:0, opacity:.08, backgroundImage:"linear-gradient(#0EBAB0 1px,transparent 1px),linear-gradient(90deg,#0EBAB0 1px,transparent 1px)", backgroundSize:"60px 60px", animation:"cs-gridmv 25s linear infinite", pointerEvents:"none" }} />
-
-
-
-
-
-
-
         {/* ── HEADING ── */}
         <div style={{ position:"absolute", top:"7%", left:"50%", transform:"translateX(-50%)", zIndex:20, textAlign:"center", pointerEvents:"none", width:"100%", maxWidth:640 }}>
           <div style={{ display:"flex", alignItems:"center", justifyContent:"center", gap:12, marginBottom:12 }}>
@@ -199,10 +192,6 @@ export default function ClientsSection3D() {
             })}
           </div>
         </div>
-
-    
-
-
 
       </section>
     </>

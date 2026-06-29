@@ -167,15 +167,15 @@ const TransparentNavbar = () => {
       <div className="flex min-h-9 w-full flex-wrap items-center justify-center gap-3 bg-gradient-to-r from-[#0EBAB0] to-[#073A53] px-3 py-2 text-[11px] text-white sm:gap-6 sm:text-[12px]">
         <div className="flex flex-wrap items-center justify-center gap-2">
           <Phone size={14} />
-          <span className="font-medium">+44 7882 610679</span>
+          <span className="font-medium">03097624802</span>
           <span className="mx-1 opacity-60">|</span>
           <Phone size={14} />
-          <span className="font-medium">+92 370 4640036</span>
+          <span className="font-medium">03177212261</span>
         </div>
         <span className="opacity-60">|</span>
         <div className="flex max-w-[90vw] flex-wrap items-center justify-center gap-1">
           <MapPin size={14} className="shrink-0" />
-          <span className="text-center font-medium">Benazir road Dolphin mall building number 25 okara</span>
+          <span className="text-center font-medium">Okara Benazir Road</span>
         </div>
         <span className="opacity-60">|</span>
         <div className="flex items-center gap-2">

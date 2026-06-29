@@ -287,15 +287,6 @@ export default function TestimonialCarousel() {
             
           </h2>
 
-          {/* <div style={{ display:"flex", alignItems:"center", justifyContent:"center", gap:8, marginTop:10 }}>
-            <div style={{ width:7, height:7, borderRadius:"50%", background:"#0EBAB0" }}/>
-            <motion.div animate={{ width:[36,64,36] }}
-              transition={{ duration:2.8, repeat:Infinity, ease:"easeInOut" }}
-              style={{ height:4, borderRadius:2, background:"linear-gradient(90deg,#0EBAB0,#073A53)" }}/>
-            <div style={{ width:7, height:7, borderRadius:"50%", background:"#073A53" }}/>
-          </div> */}
-
-
           <Dots progress={scrollYProgress}/>
         </div>
 

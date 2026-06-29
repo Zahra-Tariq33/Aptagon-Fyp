@@ -51,7 +51,7 @@ const Contact = () => {
           
           {/* Left Side - Info Column */}
           <div className="lg:w-[35%] flex flex-col gap-6 border-b lg:border-b-0 lg:border-r border-gray-100 dark:border-gray-800 pb-8 lg:pb-0 lg:pr-8">
-            <InfoItem icon={<MdPhoneInTalk />} title="Call Us" value="+44 7882 610679" />
+            <InfoItem icon={<MdPhoneInTalk />} title="Call Us" value="03097624802" />
             <InfoItem icon={<MdOutlineEmail />} title="Email" value="contact@aptagon.com" />
             <InfoItem icon={<IoLocationOutline />} title="Visit Us" value="Dallas, USA | Poole, UK" />
             

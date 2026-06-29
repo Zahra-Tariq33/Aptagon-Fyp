@@ -127,13 +127,13 @@ const Footer: React.FC = () => {
                   </div> */}
                    <div className="flex items-center gap-3 group">
                     <div className="w-8 h-8 rounded-lg bg-white/5 flex items-center justify-center group-hover:bg-[#0EBAB0] transition-colors"><FaPhoneAlt /></div>
-                    <span className="font-medium">+44 7882 610679</span>
+                    <span className="font-medium">03097624802</span>
                   
                   </div>
 
                     <div className="flex items-center gap-3 group">
                     <div className="w-8 h-8 rounded-lg bg-white/5 flex items-center justify-center group-hover:bg-[#0EBAB0] transition-colors"><FaPhoneAlt /></div>
-                    <span className="font-medium">0370 4640036</span>
+                    <span className="font-medium">03177212261</span>
                   
                   </div>
                   

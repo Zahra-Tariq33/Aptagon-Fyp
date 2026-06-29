@@ -13,36 +13,34 @@ interface TeamMember {
   dept?: string;
   social?: { fb?: string; tw?: string; ig?: string; li?: string };
 }
-const founders: TeamMember[] = [
-  { name: "Syed Faizan Amjad", role: "CEO & Co-Founder", image: "/team/founders/faizan.jpeg", isFounder: true, dept: "Leadership",
-    social: { li: "https://www.linkedin.com/company/aptagon", tw: "#", ig: "https://www.instagram.com/aptagon/#", fb: "https://www.facebook.com/aptagon/" } },
-  { name: "Syed Furqan Amjad", role: "CEO & CDO", image: "/team/founders/furqan.jpg", isFounder: true, dept: "Leadership",
-    social: { li: "https://www.linkedin.com/company/aptagon", tw: "#", ig: "https://www.instagram.com/aptagon/", fb: "https://www.facebook.com/aptagon/" } },
-  { name: "Talal Nazir", role: "Chief Developer Officer", image: "/team/founders/talal.jpeg", isFounder: false, dept: "Developer",
-    social: { li: "https://www.linkedin.com/company/aptagon", tw: "#", ig: "https://www.instagram.com/aptagon/", fb: "https://www.facebook.com/aptagon/" } },
-];
+// const founders: TeamMember[] = [
+//   { name: "Syed Faizan Amjad", role: "CEO & Co-Founder", image: "/team/founders/faizan.jpeg", isFounder: true, dept: "Leadership",
+//     social: { li: "https://www.linkedin.com/company/aptagon", tw: "#", ig: "https://www.instagram.com/aptagon/#", fb: "https://www.facebook.com/aptagon/" } },
+//   { name: "Syed Furqan Amjad", role: "CEO & CDO", image: "/team/founders/furqan.jpg", isFounder: true, dept: "Leadership",
+//     social: { li: "https://www.linkedin.com/company/aptagon", tw: "#", ig: "https://www.instagram.com/aptagon/", fb: "https://www.facebook.com/aptagon/" } },
+//   { name: "Talal Nazir", role: "Chief Developer Officer", image: "/team/founders/talal.jpeg", isFounder: false, dept: "Developer",
+//     social: { li: "https://www.linkedin.com/company/aptagon", tw: "#", ig: "https://www.instagram.com/aptagon/", fb: "https://www.facebook.com/aptagon/" } },
+// ];
 
 const rowTwo: TeamMember[] = [
-  { name: "Usman Muneer", role: "Full Stack Developer", image: "/usmanimg1.jpeg", dept: "Engineering",
-    social: { li: "https://www.linkedin.com/company/aptagon", tw: "#", ig: "https://www.instagram.com/aptagon/", fb: "https://www.facebook.com/aptagon/" } },
-  { name: "Usman Azeem", role: "Frontend Developer", image: "/team/members/usman-azeem.jpeg",  dept: "Engineering",
-    social: { li: "https://www.linkedin.com/company/aptagon", tw: "#", ig: "https://www.instagram.com/aptagon/#", fb: "https://www.facebook.com/aptagon/#" } },
   { name: "Zahra Tariq", role: "Web Developer", image: "/team/members/female2.jpg", dept: "Engineering",
-    social: { li: "https://www.linkedin.com/company/aptagon#", tw: "#", ig: "https://www.instagram.com/aptagon/", fb: "https://www.facebook.com/aptagon/#" } },
-  { name: "Maham Waleed", role: "Web Developer", image: "/team/members/female2.jpg", dept: "Engineering",
     social: { li: "https://www.linkedin.com/company/aptagon", tw: "#", ig: "https://www.instagram.com/aptagon/", fb: "https://www.facebook.com/aptagon/" } },
- 
+  { name: "Nimra Kanwal", role: "Frontend Developer", image: "/team/members/female2.jpg",  dept: "Engineering",
+    social: { li: "https://www.linkedin.com/company/aptagon", tw: "#", ig: "https://www.instagram.com/aptagon/#", fb: "https://www.facebook.com/aptagon/#" } },
+  { name: "Muhammad Imran", role: "Frontend Developer", image: "/team/members/female2.jpg", dept: "Engineering",
+    social: { li: "https://www.linkedin.com/company/aptagon#", tw: "#", ig: "https://www.instagram.com/aptagon/", fb: "https://www.facebook.com/aptagon/#" } },
+  
 ];
 
-const rowThree: TeamMember[] = [
-   { name: "Laiba Asif", role: "Ai Automation Engineer", image: "/team/members/female2.jpg", dept: "Strategy",
-    social: { li: "https://www.linkedin.com/company/aptagon#", tw: "#", ig: "https://www.instagram.com/aptagon/", fb: "https://www.facebook.com/aptagon/" } },
+// const rowThree: TeamMember[] = [
+//    { name: "Laiba Asif", role: "Ai Automation Engineer", image: "/team/members/female2.jpg", dept: "Strategy",
+//     social: { li: "https://www.linkedin.com/company/aptagon#", tw: "#", ig: "https://www.instagram.com/aptagon/", fb: "https://www.facebook.com/aptagon/" } },
  
-  { name: "Warda Ibrar", role: "UI/UX Designer", image: "/team/members/female2.jpg", dept: "Design",
-    social: { li: "https://www.linkedin.com/company/aptagon#", tw: "#", ig: "https://www.instagram.com/aptagon/#", fb: "https://www.facebook.com/aptagon/#" } },
-     { name: "Amina Ali", role: "Digital Marketing", image: "/team/members/female2.jpg", dept: "Marketing",
-    social: { li: "https://www.linkedin.com/company/aptagon#", tw: "#", ig: "https://www.instagram.com/aptagon/#", fb: "https://www.facebook.com/aptagon/" } },
-];
+//   { name: "Warda Ibrar", role: "UI/UX Designer", image: "/team/members/female2.jpg", dept: "Design",
+//     social: { li: "https://www.linkedin.com/company/aptagon#", tw: "#", ig: "https://www.instagram.com/aptagon/#", fb: "https://www.facebook.com/aptagon/#" } },
+//      { name: "Amina Ali", role: "Digital Marketing", image: "/team/members/female2.jpg", dept: "Marketing",
+//     social: { li: "https://www.linkedin.com/company/aptagon#", tw: "#", ig: "https://www.instagram.com/aptagon/#", fb: "https://www.facebook.com/aptagon/" } },
+// ];
 
 /* ─────────────────── ICONS */
 const FbIcon  = () => <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>;
@@ -463,12 +461,12 @@ export default function OurTeam() {
         </div>
 
         {/* ── FOUNDERS (3 col, same size as others) ── */}
-        <div style={{ marginBottom: "4rem" }}>
+        {/* <div style={{ marginBottom: "4rem" }}>
           <SectionLabel label="Founders & Leadership" index={0} />
           <div className="tg tg-3">
             {founders.map((m, i) => <MemberCard key={i} member={m} index={i} />)}
           </div>
-        </div>
+        </div> */}
 
         {/* ── ENGINEERING (4 col) ── */}
         <div style={{ marginBottom: "4rem" }}>
@@ -479,12 +477,12 @@ export default function OurTeam() {
         </div>
 
         {/* ── CREATIVE & STRATEGY (3 col, centred) ── */}
-        <div>
+        {/* <div>
           <SectionLabel label="Our Enthusiastic Team" index={2} />
           <div className="tg tg-3" style={{ maxWidth: 900, margin: "0 auto" }}>
             {rowThree.map((m, i) => <MemberCard key={i} member={m} index={i} />)}
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
