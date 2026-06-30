@@ -40,8 +40,8 @@ export async function PATCH(req: NextRequest, { params }: { params: Promise<{ id
 
     // Agar error Zod ka hai to specific message bhejein, warna general payload error
     if (error instanceof z.ZodError) {
-      return NextResponse.json({ error: "Invalid fields", details: error.errors }, { status: 400 });
-    }
+  return NextResponse.json({ error: "Invalid fields", details: error.format() }, { status: 400 });
+}
     
     return NextResponse.json({ error: "Invalid payload or server error" }, { status: 400 });
   }
