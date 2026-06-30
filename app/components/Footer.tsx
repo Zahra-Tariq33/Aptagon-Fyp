@@ -164,26 +164,26 @@ const Footer: React.FC = () => {
           
           {/* Animated Theme Toggle */}
           <div className="flex items-center gap-3 order-2 sm:order-1 px-2 py-1">
-            <span className="text-[8px] font-black uppercase tracking-[0.2em] text-white/30">
+            {/* <span className="text-[8px] font-black uppercase tracking-[0.2em] text-white/30">
               {theme === "dark" ? "Night" : "Day"}
-            </span>
+            </span> */}
             <button
-              onClick={toggleTheme}
-              className={`relative w-11 h-5 rounded-full p-0.5 transition-colors duration-500 border border-white/10 overflow-hidden ${
-                theme === "dark" ? "bg-slate-800 shadow-[inset_0_2px_4px_rgba(0,0,0,0.3)]" : "bg-cyan-500/20 shadow-[inset_0_2px_4px_rgba(0,0,0,0.1)]"
-              }`}
+              // onClick={toggleTheme}
+              // className={`relative w-11 h-5 rounded-full p-0.5 transition-colors duration-500 border border-white/10 overflow-hidden ${
+              //   theme === "dark" ? "bg-slate-800 shadow-[inset_0_2px_4px_rgba(0,0,0,0.3)]" : "bg-cyan-500/20 shadow-[inset_0_2px_4px_rgba(0,0,0,0.1)]"
+              // }`}
             >
               <motion.div
-                animate={{ 
-                  x: theme === "dark" ? 22 : 0,
-                  rotate: theme === "dark" ? 360 : 0
-                }}
-                transition={{ type: "spring", stiffness: 400, damping: 25 }}
-                className={`relative z-10 w-[14px] h-[14px] rounded-full flex items-center justify-center shadow-lg transition-colors duration-500 ${
-                  theme === "dark" ? "bg-[#0EBAB0] text-white" : "bg-white text-orange-500"
-                }`}
+                // animate={{ 
+                //   x: theme === "dark" ? 22 : 0,
+                //   rotate: theme === "dark" ? 360 : 0
+                // }}
+                // transition={{ type: "spring", stiffness: 400, damping: 25 }}
+                // className={`relative z-10 w-[14px] h-[14px] rounded-full flex items-center justify-center shadow-lg transition-colors duration-500 ${
+                //   theme === "dark" ? "bg-[#0EBAB0] text-white" : "bg-white text-orange-500"
+                // }`}
               >
-                <AnimatePresence mode="wait">
+                {/* <AnimatePresence mode="wait">
                   {theme === "dark" ? (
                     <motion.div
                       key="moon"
@@ -203,11 +203,11 @@ const Footer: React.FC = () => {
                       <FaSun className="text-[8px]" />
                     </motion.div>
                   )}
-                </AnimatePresence>
+                </AnimatePresence> */}
               </motion.div>
 
               {/* Background Stars for Night Mode */}
-              <AnimatePresence>
+              {/* <AnimatePresence>
                 {theme === "dark" && (
                   <motion.div
                     initial={{ opacity: 0 }}
@@ -219,7 +219,7 @@ const Footer: React.FC = () => {
                     <div className="absolute bottom-1.5 left-5 w-0.5 h-0.5 bg-white rounded-full animate-pulse delay-75" />
                   </motion.div>
                 )}
-              </AnimatePresence>
+              </AnimatePresence> */}
             </button>
           </div>
 
